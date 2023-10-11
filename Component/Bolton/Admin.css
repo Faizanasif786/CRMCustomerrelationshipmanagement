@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+
+li{
+  font-family: 'Roboto', sans-serif;
+}
+#Top-Div{
+    background-color: #782660;
+    width: 100%;
+    height: 50px;
+}
+/* onsite mannager css sign in  */
+#OnSite-Top-Div{
+  background-color: #782660;
+  width: 100%;
+  height: 50px;
+}
+#OnsiteLoginForm{
+  align-items: center;
+  justify-content: center;
+   margin: 10% auto;
+   display: flex;
+   text-align: center;
+}
+/* onsite mannager css sign in end  */
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #782660;
+    margin-left: 2px;
+    width: 250px;
+}
+#AdminLoginForm{
+   align-items: center;
+   justify-content: center;
+    margin: 10% auto;
+    display: flex;
+    text-align: center;
+}
+#SignBtn{
+    width: 100px;
+    background-color: #782660;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#SiteButton {
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust the value to control the space between buttons */
+  }
+  #SiteButton button{
+    background-color: #e2e2e2;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  #SiteButton .leyland{
+    background-color: #782660;
+    color: white;
+  }
+
+  /* summary css  */
+  /* Summary.css */
+.summary-container {
+  margin: 20px auto;
+  text-align: center;
+ 
+}
+.summary-heading{
+  text-align: center;
+  color: #782660;
+
+}
+.upload-container {
+  margin: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.upload-container input[type="file"] {
+  margin-right: 10px;
+}
+
+.upload-container button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* styles.css */
+.csv-table {
+  margin-top: 5%;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .csv-table th,
+  .csv-table td {
+    border: 2px solid #ccc;
+    padding: 8px;
+    text-align: left;
+   
+  }
+  
+  .csv-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+
+  }
+  #SummaryCsv{
+    justify-content: center;
+    margin: 2% auto;
+    text-align: center;
+    
+  }
+  
+
+  /* summary css end  */
+
+  /* profile section css  start */
+label{
+  font-size: 15px;
+  font-weight: 700;
+  color: #782660;
+  margin-left: 5px;
+  margin-right: -15px;
+}
+#profile-Form{
+  width: 100%;
+  text-align: center;
+
+}
+
+
+#profile-Form select{
+  width: 250px;
+  padding: 10px;
+background-color: #782660;
+color: white;
+  margin-left: 2%;
+  text-align: center;
+}
+.d-o-j{
+  text-align: center;
+}
+#profile-Form select , option{
+  padding: 10px;
+}
+
+#profile-Form input{
+  margin-top: 2%;
+  width: 200px;
+  margin-left: 2%;
+}
+#profile-Btn button{
+  width: 300px;
+  background-color: #782660;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+  margin: 3% auto;
+  display: block;
+}
+
+.driver-registration-heading{
+  text-align: center;
+  color: #782660;
+  font-weight: 800;
+  margin-top: 2%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.upload-documents{
+  border-bottom: 2px solid #782660;
+  padding-bottom: 10px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+}
+.up-doc{
+  text-align:left;
+  color: #782660;
+  font-weight: 700;
+  border-top: 2px solid #782660;
+  margin: 5px;
+}
+/* profile css end  */
+
+/* add services start  */
+.Sceduletype{
+  background-color: #782660;
+  color: white;
+  font-size: 12px;
+}
+.orange{
+  background-color: orange;
+  color: white;
+
+}
+.blue{
+  background-color: blue;
+  color: white;
+}
+.lightblue{
+  background-color: lightblue;
+  color: rgb(0, 0, 0);
+}
+.green{
+  background-color: green;
+  color: white;
+}
+.yellow{
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+}
+.red{
+  background-color: red;
+  color: rgb(255, 255, 255);
+}
+.Sceduledate{
+  background-color: #f1f1f1;
+  color: #000000;
+  font-size: 11px;
+  font-weight: 800;
+}
+.add-services{
+  justify-content: center;
+  align-items: center;
+  margin: 2% auto;
+  display: block;
+  
+}
+.add-services input{
+  border:  2px solid #782660;
+  border-radius: 10px;
+}
+.add-services button{
+  background-color: #782660;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+ 
+}
+/* styles.css */
+
+/* Form Styles */
+.add-services {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+
+/* profile display data css start  */
+
+
+/* profile display data css end  */
+
+
+
+/* Data Display Styles */
+.services-data-display {
+  margin-top: 20px;
+}
+
+.services-data-display h2 {
+  margin-bottom: 10px;
+}
+
+.services-data-display table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.services-data-display th,
+.services-data-display td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.services-data-display th {
+  background-color: #f2f2f2;
+}
+
+/* add services end  */
+
+
+/* roster css start  */
+.Select-Service-Type select , option{
+  padding: 5px;
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+.Select-Service-Type{
+
+  margin-left: -8%;
+}
+#rotaservicetype select{
+  margin-top: 1%;
+  border: none;
+  padding: 5px;
+  width: 135px;
+  color: white;
+  background-color: #782660;
+}
+#rotaservicetype select option{
+  color: white;
+}
+#rotaservicetype button{
+  border-radius: 20px;
+  border: none;
+  width: 100px;
+  padding: 8px;
+  color: white;
+  background-color: #782660;
+  cursor: pointer;
+}
+#publishbtn button{
+  
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  padding: 8px;
+  color: white;
+  background-color: #782660;
+  cursor: pointer;
+ margin-bottom: -2%;
+}
+  
+/* roster css end  */
+
+/* payment system css start  */
+#paymentsystemtopheader{
+  display: flex;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 100%;
+ 
+}
+.not-app{
+  background-color: rgb(194, 0, 0);
+  color: #fff;
+  cursor: pointer;
+  width: 88px;
+}
+.approve{
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  width: 88px;
+}
+#paymentsystemtopheader div{
+  background-color: #782660;
+width: 150px;
+white-space: normal; 
+color: #fff;
+border: 2px solid black;
+padding: 10px;
+}
+#paymentsystem{
+  display: flex;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 100%;
+}
+#paymentsystem div{
+
+width: 150px;
+white-space: normal; 
+border-right: 2px solid rgb(0, 0, 0);
+border: 2px solid black;
+padding: 10px;
+}
+.site{
+  font-size: 12px;
+}
+
+/* payment system css end  */

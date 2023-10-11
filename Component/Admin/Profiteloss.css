@@ -1,0 +1,34 @@
+#table{
+    width: 80%;
+    margin:3% auto;
+    justify-content: center;
+
+}
+#table thead{
+    border-bottom: 5px solid purple;
+    width: 150px;
+}
+.inputlength{
+    all:unset
+}
+
+.inputcontainer{
+    overflow: hidden;
+}
+
+#serviceTypeFilter{
+    margin-left: 30px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.service-type-filter{
+    margin: 20px 0;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

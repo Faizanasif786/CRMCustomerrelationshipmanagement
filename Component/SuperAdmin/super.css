@@ -1,0 +1,39 @@
+.supperadmin{
+text-align: right;
+padding: 20px;
+list-style: none;
+color: purple;
+font-size: 25px;
+font-weight: 520;
+
+}
+.supperadmin:hover{
+    text-align: right;
+    padding: 20px;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    
+    }
+.supperAdmin {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.supperAdmin div{
+    padding: 50px;
+    align-items: center;
+    margin:2% auto;
+    border-radius: 20px;
+    background-color: purple;
+    cursor: pointer;
+    width: 250px;
+}
+h1{
+    color: purple;
+text-align: center;
+margin:5% ;
+}

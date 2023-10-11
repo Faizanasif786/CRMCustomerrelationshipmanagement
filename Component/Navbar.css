@@ -1,0 +1,164 @@
+/* Navbar.css */
+/* Your navbar styles go here */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #782660;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+
+  }
+  
+  .navbar-links li {
+    margin-right: 15px;
+  }
+  
+  .navbar-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+  }
+  
+  /* Media query for responsive design */
+  @media screen and (max-width: 768px) {
+    .UserLogin{
+        margin-right: 10px;
+    }
+    .navbar-links {
+      display: none;
+    }
+  
+    .navbar-links.show {
+      display: flex;
+      flex-direction: column;
+      background-color: #782660;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      left: 0;
+    }
+  
+    .navbar-links li {
+      margin-right: 0;
+      text-align: left;
+      padding: 10px;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  }
+  .UserLogin{
+    margin-left: auto;
+  }
+  .UserLogin li{
+    list-style: none;
+  }
+  .UserLogin li a{
+    color: white;
+    margin-left: 5px;
+  }
+
+
+  /* real time profile data css  */
+
+  /* Basic table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 5px;
+  text-align: center;
+  border: 2px solid #782660;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-size: 12px;
+  border: 2px solid #782660;
+  padding: 10px 30px 10px 10px ;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 600px) {
+  table {
+    font-size: 8px;
+    
+  }
+
+  th, td {
+    padding: 2px;
+  }
+
+  /* Hide table header on small screens */
+  thead {
+    display: none;
+  }
+
+  /* Display table rows as blocks to make them stack on small screens */
+  tbody, tr, td {
+    display: block;
+    width: 100%;
+  }
+
+  /* Add vertical separation between table cells */
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* Highlight the first column (Image) */
+  td:first-child {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  /* Add spacing between rows */
+  tr {
+    margin-bottom: 10px;
+  }
+}
+.profileData{
+  text-align: center;
+}
+#Table-size{
+  margin-top: -15%;
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  margin: auto;
+}
+/* real time profile data css end  */
